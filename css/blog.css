@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+} 
+
+#header{
+    margin-bottom: 40px;
+}
+.display-1{
+    font-family: font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+p{
+    font-size: 14px;
+}
+
+@media (min-width: 576px) {
+    .display-1 {
+        font-size: 4em;
+
+    }
+
+}
+@media (min-width: 768px) {
+    .display-1 {
+        font-size: 5em;
+    }
+
+}
+@media (min-width: 992px) {
+    .display-1 {
+        font-size: 7em;
+    }
+
+} 
+img{
+    width: 80%;
+
+    margin-top: 10px;
+}
+.post{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+hr{
+    width: 80%;
+    margin-bottom: 80px;
+
+}
+.caption{
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
